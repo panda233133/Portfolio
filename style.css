@@ -21,7 +21,7 @@ body,html{
     height: 100vh;
     background-color: #111;
     color: white;
-    
+    z-index: 100;
 }
 #loader #topheading{
     position:absolute;
@@ -43,6 +43,7 @@ body,html{
     background-color:#4aa98b;
     top: 100%;
     position: absolute;
+    z-index: 100;
 
 
 }
@@ -63,26 +64,37 @@ body,html{
 
 
 
-.parent{
+#loader .parent{
     display: block;
     
     overflow:hidden ;
-    width: 100%;
-    justify-items: center;
-    align-items: center;
+    text-align: center;
     overflow-y: hidden;
    
 }
-.child{
+.parent{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+ 
+
+}
+#loader .child{
     display: block;
     
     color: white;
     
     
 }
+.child{
+    display: block;
+    
+   
+}
 /* Add to style.css */
 .child span {
   display: inline-block;
+
 }
 
 #home{
