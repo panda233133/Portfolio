@@ -127,7 +127,7 @@ function animateHomepage(){
      t1.to("#home img ",{
         opacity:1,
         delay:-.5,
-        duration:"0.1",
+        
         ease:Expo.easeInOut,
         OnComplete(){
          animateSvg()
