@@ -139,9 +139,17 @@ function animateHomepage(){
     })
 }
 
+
+function locoInitialise(){
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#home'),
+    smooth: true
+});
+}
 revealToSpan();
 AnimationSetter()  
 LoaderAnimation()
-
+locoInitialise()
 
 // animateSvg()

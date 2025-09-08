@@ -16,7 +16,7 @@ body,html{
     
 }
 #loader{
-    display: none;
+   
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -38,7 +38,7 @@ body,html{
     text-align: center;
 }
 #green{
-    display: none;
+  
     width: 100%;
     height: 0vh;
     background-color:#4aa98b;
@@ -278,6 +278,7 @@ nav a:hover #line2{
     height: 150px;
   
 }
+
 .torn-divider {
   width: 100%;
   height: 150px;
@@ -299,9 +300,10 @@ nav a:hover #line2{
    
 }
 .arrow img{
-    width: 20%;
-    stroke-opacity: 0.8;
+    width: 17%;
     transform: rotate(-47deg);
+    font-weight: 100;
+    stroke: gray;
 }
 .para{
     position: absolute;
@@ -335,4 +337,72 @@ nav a:hover #line2{
     position: absolute;
     bottom: 10%;
     right: 7%;
+}
+.third{
+    width: 100%;
+   
+    background-color:rgba(173, 163, 163, 0.496) ;
+    position: relative;
+}
+.third .upper{
+    padding: 0 15vw;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.third .upper h1{
+    font-size: 8vw;
+    font-weight: 500;
+    font-family: "Mazius Review 20.09";
+    display: flex;
+    align-items: baseline;
+
+}
+.upper img{
+    transform: rotate(45deg);
+    width: 10%;
+    stroke: gray;
+}
+.third h1 .mini{
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+.images{
+    width: 100%;
+    position: relative;
+    margin-top: 6vw;
+    padding: 0 5vw;
+    
+}
+.cntr{
+    
+   overflow: hidden;
+    border-radius:50px;
+   
+
+    
+  
+
+}
+.cntr img{
+    width: 125%;
+    object-position: right;
+    
+}
+.cntr1{
+    width: 55%;
+    height: 60%;
+}
+
+.cntr2{
+    width:40%;
+    object-fit: cover;
+    object-position: center;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
