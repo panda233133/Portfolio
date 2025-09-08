@@ -89,7 +89,7 @@ function animateSvg(){
     .to(".visual-text", {
       opacity: 1,
       visibility: "visible",
-      duration: "1"
+      delay:-1
     })
     .to(".visual-text", {
       strokeDashoffset: 0,
@@ -126,7 +126,7 @@ function animateHomepage(){
     })
      t1.to("#home img ",{
         opacity:1,
-        delay:-.5,
+        delay:-.8,
         
         ease:Expo.easeInOut,
         OnComplete(){
